@@ -1,3 +1,5 @@
+# Codespace Django REST API endpoint base URL
+CODESPACE_API_BASE_URL = 'https://curly-xylophone-69p6rxr7p94634gjv-8000.app.github.dev/api/'
 """
 Django settings for octofit_tracker project.
 

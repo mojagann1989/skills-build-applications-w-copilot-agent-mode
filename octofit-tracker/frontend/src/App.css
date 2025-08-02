@@ -1,0 +1,149 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%);
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  background: transparent;
+}
+
+
+.App-logo {
+  height: 60px;
+  width: auto;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #1976d2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+.App-link {
+  color: #1976d2;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.App-link:hover {
+  color: #004ba0;
+}
+
+/* Navigation styles */
+.navbar {
+  background-color: #1976d2 !important;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.08);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffb300 !important;
+}
+
+/* Table styles */
+table {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+th {
+  background-color: #1976d2 !important;
+  color: #fff !important;
+}
+tr:nth-child(even) {
+  background-color: #e3f2fd;
+}
+tr:hover {
+  background-color: #b3e5fc;
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #1976d2;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #004ba0;
+}
+.btn-success {
+  background-color: #43a047;
+  border: none;
+}
+.btn-success:hover {
+  background-color: #2e7031;
+}
+.btn-info {
+  background-color: #00bcd4;
+  border: none;
+}
+.btn-info:hover {
+  background-color: #008ba3;
+}
+.btn-warning {
+  background-color: #ffb300;
+  border: none;
+  color: #fff;
+}
+.btn-warning:hover {
+  background-color: #ff6f00;
+}
+.btn-secondary {
+  background-color: #757575;
+  border: none;
+}
+.btn-secondary:hover {
+  background-color: #424242;
+}
+
+/* Headings */
+h1, .card-title {
+  color: #1976d2;
+  font-weight: 700;
+}
+
+/* Card styles */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  margin-bottom: 2rem;
+}
+
+/* Favicon */
+link[rel="icon"] {
+  border-radius: 50%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
